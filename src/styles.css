@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+/* tag selector */
+main {
+    /* hsl: hue, saturation, lightness */
+    background-color: hsl(180deg, 100%, 80%);
+
+    display: grid;
+    place-items: center;
+
+    height: 40rem;
+}
+
+/* id selector */
+#title {
+}
+
+/* class selector */
+.box {
+    background-color: hsl(120deg, 50%, 50%);
+
+    width: 20rem;
+    height: auto;
+
+    font-size: 2rem;
+}
+
+h1 {
+    background-color: hsl(30deg, 100%, 50%);
+
+    /*display: inline;*/
+}
+
+b {
+    /*display: block;*/
+}
